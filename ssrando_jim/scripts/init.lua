@@ -17,8 +17,10 @@ if has_map then
 end
 
 Tracker:AddLayouts("layouts/dungeon_grids.json")
+Tracker:AddLayouts("layouts/mainItems_grids.json")
+Tracker:AddLayouts("layouts/sideItems_grids.json")
+Tracker:AddLayouts("layouts/placeSongs_grids.json")
 Tracker:AddLayouts("layouts/item_grids.json")
-Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/layouts.json")
 Tracker:AddLayouts("layouts/capture.json")
 Tracker:AddLayouts("layouts/tracker.json")

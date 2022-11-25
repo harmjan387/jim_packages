@@ -1,5 +1,23 @@
 [
   {
+    "name": "Hylian Shield",
+    "type": "toggle",
+    "img": "images/shield_hylian.png",
+    "codes": "shield2,hylianshield,hshield"
+  },
+  {
+    "name": "Fireshield Earrings",
+    "type": "toggle",
+    "img": "images/earring.png",
+    "codes": "earrings,fireshield,fse"
+  },
+  {
+    "name": "Water Dragon's Scale",
+    "type": "toggle",
+    "img": "images/scale.png",
+    "codes": "waterdragon,scale,wds"
+  },
+  {
     "name": "Wallet Upgrades",
     "type": "progressive",
     "allow_disabled": false,
@@ -27,6 +45,52 @@
     ]
   },
   {
+    "name": "Fruit",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/fruit.png",
+        "codes": "fruit"
+      },
+      {
+        "img": "images/fruitC.png",
+        "codes": "fruitC"
+      }
+    ]
+  },
+  {
+    "name": "Bottle",
+    "type": "consumable",
+    "img": "images/bottle.png",
+    "codes": "bottle",
+    "max_quantity": 5
+  },
+  {
+    "name": "Cursed_Medal",
+    "type": "progressive",
+    "width": 64,
+    "height": 64,
+    "codes": "cursed",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "name": "Cursed",
+        "img": "images/cursed.png",
+        "codes": "1,cursed",
+      },
+      {
+        "name": "CursedX",
+        "img": "images/cursedX.png",
+        "codes": "2,cursed"
+      },
+      {
+        "name": "Cursed",
+        "img": "images/cursedH.png",
+        "codes": "3,cursed",
+      },
+    ]
+  },
+  {
     "name": "Extra Wallets",
     "type": "consumable",
     "max_quantity": 900,
@@ -41,56 +105,6 @@
     "codes": "ewalletcap"
   },
   {
-    "name": "Heart Pieces",
-    "type": "consumable",
-    "img": "images/hp.png",
-    "codes": "HP,PoH",
-    "max_quantity": 24
-  },
-  {
-    "name": "Heart Pieces",
-    "type": "toggle",
-    "img": "images/hp.png",
-    "codes": "HPcapture"
-  },
-  {
-    "name": "Heart Containers",
-    "type": "consumable",
-    "img": "images/hc.png",
-    "codes": "HC",
-    "max_quantity": 6
-  },
-  {
-    "name": "Heart Containers",
-    "type": "toggle",
-    "img": "images/hc.png",
-    "codes": "HCcapture"
-  },
-  {
-    "name": "Rupee",
-    "type": "toggle",
-    "img": "images/rupee.png",
-    "codes": "rupee"
-  },
-  {
-    "name": "Emerald Tablet",
-    "type": "toggle",
-    "img": "images/tab_em.png",
-    "codes": "emerald"
-  },
-  {
-    "name": "Ruby Tablet",
-    "type": "toggle",
-    "img": "images/tab_rb.png",
-    "codes": "ruby"
-  },
-  {
-    "name": "Amber Tablet",
-    "type": "toggle",
-    "img": "images/tab_am.png",
-    "codes": "amber"
-  },
-  {
     "name": "Adventure Pouch",
     "type": "toggle",
     "img": "images/adventure.png",
@@ -98,45 +112,45 @@
   },
   {
     "name": "Baby Rattle",
-    "type": "toggle",
-    "img": "images/rattle.png",
-    "codes": "rattle",
-    "loop": true
-  },
-  {
-    "name": "Baby Rattle w/Check",
-    "type": "toggle_badged",
-    "base_item": "rattle",
-    "img": "images/check_b.png",
-    "codes": "rattlecheck"
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/rattle.png",
+        "codes": "rattle"
+      },
+      {
+        "img": "images/rattleC.png",
+        "codes": "rattleC"
+      }
+    ]
   },
   {
     "name": "Cawlin's Letter",
-    "type": "toggle",
-    "img": "images/letter.png",
-    "codes": "cawlin,letter",
-    "loop": true
-  },
-  {
-    "name": "Cawlin's Letter w/Check",
-    "type": "toggle_badged",
-    "base_item": "cawlin",
-    "img": "images/check_b.png",
-    "codes": "cawlincheck,lettercheck"
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/letter.png",
+        "codes": "letter"
+      },
+      {
+        "img": "images/letterC.png",
+        "codes": "letterC"
+      }
+    ]
   },
   {
     "name": "Horned Colossus Beetle",
-    "type": "toggle",
-    "img": "images/hcb.png",
-    "codes": "hcb",
-    "loop": true
-  },
-  {
-    "name": "HCB w/Check",
-    "type": "toggle_badged",
-    "base_item": "hcb",
-    "img": "images/check_b.png",
-    "codes": "hcbcheck"
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/hcb.png",
+        "codes": "hcb"
+      },
+      {
+        "img": "images/hcbC.png",
+        "codes": "hcbC"
+      }
+    ]
   },
   {
     "name": "Stone of Trials",
@@ -151,86 +165,6 @@
     "codes": "seachart,chart"
   },
   {
-    "name": "Goddess Harp",
-    "type": "toggle",
-    "img": "images/harp.png",
-    "codes": "harp"
-  },
-  {
-    "name": "Ballad of the Goddess",
-    "type": "toggle",
-    "img": "images/harp_bog.png",
-    "codes": "bog"
-  },
-  {
-    "name": "Farore's Courage",
-    "type": "toggle",
-    "img": "images/harp_fc.png",
-    "codes": "fc"
-  },
-  {
-    "name": "Nayru's Wisdom",
-    "type": "toggle",
-    "img": "images/harp_nw.png",
-    "codes": "nw"
-  },
-  {
-    "name": "Din's Power",
-    "type": "toggle",
-    "img": "images/harp_dp.png",
-    "codes": "dp"
-  },
-  {
-    "name": "Faron Song of the Hero",
-    "type": "toggle",
-    "img": "images/soh_f.png",
-    "codes": "sohf"
-  },
-  {
-    "name": "Eldin Song of the Hero",
-    "type": "toggle",
-    "img": "images/soh_e.png",
-    "codes": "sohe"
-  },
-  {
-    "name": "Lanayru Song of the Hero",
-    "type": "toggle",
-    "img": "images/soh_l.png",
-    "codes": "sohl"
-  },
-  {
-    "name": "Complete Song of the Hero",
-    "type": "toggle",
-    "img": "images/harp_soh.png",
-    "codes": "sohc"
-  },
-  {
-    "name": "Song of the Hero",
-    "type": "consumable",
-    "max_quantity": 3,
-    "img": "images/harp_soh.png",
-    "codes": "soh"
-  },
-  {
-    "name": "Song of the Hero",
-    "type": "toggle",
-    "img": "images/harp_soh.png",
-    "codes": "sohcapture"
-  },
-  {
-    "name": "Key Piece",
-    "type": "consumable",
-    "max_quantity": 5,
-    "img": "images/keypiece.png",
-    "codes": "kp"
-  },
-  {
-    "name": "Key Piece",
-    "type": "consumable",
-    "img": "images/keypiece.png",
-    "codes": "kpcapture"
-  },
-  {
     "name": "Gratitude Crystals",
     "type": "consumable",
     "max_quantity": 80,
@@ -239,177 +173,17 @@
     "increment": 5
   },
   {
-    "name": "Gratitude Crystals",
-    "type": "toggle",
-    "img": "images/gratitude.png",
-    "codes": "gratcapture"
-  },
-  {
     "name": "Spiral Charge",
-    "type": "toggle",
-    "img": "images/bird_statuette.png",
-    "codes": "spiral"
-  },
-  {
-    "name": "Goddess Cube Initial",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_Initial"
-  },
-  {
-    "name": "Goddess Cube West Great Tree",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_WGT"
-  },
-  {
-    "name": "Goddess Cube East Great Tree Rope",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_EGTr"
-  },
-  {
-    "name": "Goddess Cube East Great Tree Clawshot",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_EGTcs"
-  },
-  {
-    "name": "Goddess Cube Deep Woods",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_DW"
-  },
-  {
-    "name": "Goddess Cube atop Skyview",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_SV"
-  },
-  {
-    "name": "Goddess Cube Skyview Spring",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_SVS"
-  },
-  {
-    "name": "Goddess Cube Lake Floria",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_Fl"
-  },
-  {
-    "name": "Goddess Cube Floria Waterfall",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_FW"
-  },
-  {
-    "name": "Goddess Cube Eldin Entrance",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_EE"
-  },
-  {
-    "name": "Goddess Cube Mogma Turf Entrance",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_MTE"
-  },
-  {
-    "name": "Goddess Cube Mogma Turf",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_MT"
-  },
-  {
-    "name": "Goddess Cube West of Earth Temple",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_ETW"
-  },
-  {
-    "name": "Goddess Cube East of Earth Temple",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_ETE"
-  },
-  {
-    "name": "Goddess Cube Eldin Slides",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_ES"
-  },
-  {
-    "name": "Goddess Cube Volcano Summit",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_VS"
-  },
-  {
-    "name": "Goddess Cube Summit Waterfall",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_SW"
-  },
-  {
-    "name": "Goddess Cube Fire Sanc Entrance",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_FSE"
-  },
-  {
-    "name": "Goddess Cube Lanayru Mines Entrance",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_LME"
-  },
-  {
-    "name": "Goddess Cube Sand Oasis",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_SO"
-  },
-  {
-    "name": "Goddess Cube Temple of Time",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_ToT"
-  },
-  {
-    "name": "Goddess Cube Secret Passageway",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_SP"
-  },
-  {
-    "name": "Goddess Cube Hook Beetle Flight",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_HBF"
-  },
-  {
-    "name": "Goddess Cube Ancient Harbour",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_AH"
-  },
-  {
-    "name": "Goddess Cube Skipper's Retreat",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_SR"
-  },
-  {
-    "name": "Goddess Cube Pirate Stronghold",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_PS"
-  },
-  {
-    "name": "Goddess Cube Lanayru Gorge",
-    "type": "toggle",
-    "img": "images/cube.png",
-    "codes": "cube_LG"
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bird_statuette.png",
+        "codes": "spiral"
+      },
+      {
+        "img": "images/bird_statuetteC.png",
+        "codes": "spiralC"
+      }
+    ]
   }
 ]

@@ -1,108 +1,58 @@
 [
   {
-    "name": "Bow",
+    "name": "Emerald Tablet",
     "type": "toggle",
-    "codes": "bow",
-    "img": "images/bow.png"
+    "img": "images/tab_em.png",
+    "codes": "emerald"
   },
   {
-    "name": "Slingshot",
+    "name": "Ruby Tablet",
     "type": "toggle",
-    "img": "images/slingshot.png",
-    "codes": "slingshot,sling"
+    "img": "images/tab_rb.png",
+    "codes": "ruby"
   },
   {
-    "name": "Beetle",
-    "type": "progressive",
-    "codes": "beetle",
-    "stages": [
-      {
-        "name": "Beetle",
-        "codes": "beetle",
-        "img": "images/beetle.png"
-      },
-      {
-        "name": "Hook Beetle",
-        "codes": "beetle,hookbeetle,hb,hook",
-        "img": "images/beetle_hook.png"
-      },
-      {
-        "name": "Quick Beetle",
-        "codes": "beetle,hookbeetle,hb,hook,quickbeetle",
-        "img": "images/beetle_quick.png"
-      }
-    ]
-  },
-  {
-    "name": "Gust Bellows",
+    "name": "Amber Tablet",
     "type": "toggle",
-    "img": "images/bellows.png",
-    "codes": "bellows,gust"
+    "img": "images/tab_am.png",
+    "codes": "amber"
   },
+
   {
-    "name": "Clawshots",
+    "name": "Goddess Harp",
     "type": "toggle",
-    "img": "images/clawshots.png",
-    "codes": "cs,clawshots,claw"
+    "img": "images/harp.png",
+    "codes": "harp"
   },
   {
-    "name": "Whip",
+    "name": "Ballad of the Goddess",
     "type": "toggle",
-    "img": "images/whip.png",
-    "codes": "whip"
+    "img": "images/harp_bog.png",
+    "codes": "bog"
   },
   {
-    "name": "Bug Net",
+    "name": "Farore's Courage",
     "type": "toggle",
-    "codes": "bugnet",
-    "img": "images/bugnet.png"
+    "img": "images/harp_fc.png",
+    "codes": "fc"
   },
   {
-    "name": "Mitts",
-    "type": "progressive",
-    "codes": "mitts",
-    "stages": [
-      {
-        "name": "Digging Mitts",
-        "img": "images/mitts_digging.png",
-        "codes": "digging,mitts"
-      },
-      {
-        "name": "Mogma Mitts",
-        "img": "images/mitts_mogma.png",
-        "codes": "mogma,mitts"
-      }
-    ]
-  },
-  {
-    "name": "Bomb Bag",
+    "name": "Nayru's Wisdom",
     "type": "toggle",
-    "codes": "bombs,bomb",
-    "img": "images/bombs.png"
+    "img": "images/harp_nw.png",
+    "codes": "nw"
   },
   {
-    "name": "Bottle",
+    "name": "Din's Power",
+    "type": "toggle",
+    "img": "images/harp_dp.png",
+    "codes": "dp"
+  },
+  {
+    "name": "Song of the Hero",
     "type": "consumable",
-    "img": "images/bottle.png",
-    "codes": "bottle",
-    "max_quantity": 5
+    "max_quantity": 3,
+    "img": "images/harp_soh.png",
+    "codes": "soh"
   },
-  {
-    "name": "Bottle",
-    "type": "toggle",
-    "img": "images/bottle.png",
-    "codes": "bottlecapture"
-  },
-  {
-    "name": "Check",
-    "type": "static",
-    "img": "images/check.png",
-    "codes": "check"
-  },
-  {
-    "name": "X",
-    "type": "static",
-    "img": "images/x.png",
-    "codes": "x"
-  }
 ]

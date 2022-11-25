@@ -31,33 +31,117 @@
     ]
   },
   {
-    "name": "Sailcloth",
-    "type": "static",
-    "img": "images/sailcloth.png",
-    "codes": "sailcloth"
+    "name": "Bow",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bow.png",
+        "codes": "bow"
+      },
+      {
+        "img": "images/bow_iron.png",
+        "codes": "bow_iron"
+      },
+      {
+        "img": "images/bow_sacred.png",
+        "codes": "bow_sacred"
+      },
+    ]
   },
   {
-    "name": "Wooden Shield",
-    "type": "toggle",
-    "img": "images/shield_wooden.png",
-    "codes": "shield1,woodenshield,wshield"
+    "name": "Slingshot",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/slingshot.png",
+        "codes": "sling"
+      },
+      {
+        "img": "images/slingshot_scatter.png",
+        "codes": "sling_scatter"
+      },
+    ]
   },
   {
-    "name": "Hylian Shield",
-    "type": "toggle",
-    "img": "images/shield_hylian.png",
-    "codes": "shield2,hylianshield,hshield"
+    "name": "Beetle",
+    "type": "progressive",
+    "codes": "beetle",
+    "stages": [
+      {
+        "name": "Beetle",
+        "codes": "beetle",
+        "img": "images/beetle.png"
+      },
+      {
+        "name": "Hook Beetle",
+        "codes": "beetle,hookbeetle,hb,hook",
+        "img": "images/beetle_hook.png"
+      },
+      {
+        "name": "Quick Beetle",
+        "codes": "beetle,hookbeetle,hb,hook,quickbeetle",
+        "img": "images/beetle_quick.png"
+      },
+      {
+        "name": "Tough Beetle",
+        "codes": "beetle,hookbeetle,hb,hook,quickbeetle,toughbeetle",
+        "img": "images/beetle_tough.png"
+      }
+    ]
   },
   {
-    "name": "Fireshield Earrings",
+    "name": "Gust Bellows",
     "type": "toggle",
-    "img": "images/earring.png",
-    "codes": "earrings,fireshield,fse"
+    "img": "images/bellows.png",
+    "codes": "bellows,gust"
   },
   {
-    "name": "Water Dragon's Scale",
+    "name": "Clawshots",
     "type": "toggle",
-    "img": "images/scale.png",
-    "codes": "waterdragon,scale,wds"
-  }
+    "img": "images/clawshots.png",
+    "codes": "cs,clawshots,claw"
+  },
+  {
+    "name": "Whip",
+    "type": "toggle",
+    "img": "images/whip.png",
+    "codes": "whip"
+  },
+  {
+    "name": "Bug Net",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bugnet.png",
+        "codes": "bugnet"
+      },
+      {
+        "img": "images/bugnet_big.png",
+        "codes": "bugnet_big"
+      },
+    ]
+  },
+  {
+    "name": "Mitts",
+    "type": "progressive",
+    "codes": "mitts",
+    "stages": [
+      {
+        "name": "Digging Mitts",
+        "img": "images/mitts_digging.png",
+        "codes": "digging,mitts"
+      },
+      {
+        "name": "Mogma Mitts",
+        "img": "images/mitts_mogma.png",
+        "codes": "mogma,mitts"
+      }
+    ]
+  },
+  {
+    "name": "Bomb Bag",
+    "type": "toggle",
+    "codes": "bombs,bomb",
+    "img": "images/bombs.png"
+  },
 ]

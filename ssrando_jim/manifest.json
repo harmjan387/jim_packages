@@ -5,17 +5,8 @@
   "package_uid": "ssrando_jim",
   "author": "j_im",
   "variants": {
-    "standard": {
-      "display_name": "Map Tracker"
-    },
-    "var_dungshuf": {
-      "display_name": "Map Tracker (Dungeon Shuffle)"
-    },
     "var_itemsonly": {
       "display_name": "Items Only"
     },
-    "var_items_ds": {
-      "display_name": "Items Only (Dungeon Shuffle)"
-    }
   }
 }

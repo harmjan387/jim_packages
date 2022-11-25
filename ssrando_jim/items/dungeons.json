@@ -45,6 +45,13 @@
     ]
   },
   {
+    "name": "Key Piece",
+    "type": "consumable",
+    "max_quantity": 5,
+    "img": "images/keypiece.png",
+    "codes": "kp"
+  },
+  {
     "name": "Dragon Sculpture",
     "type": "toggle",
     "img": "images/bk-et.png",
@@ -188,11 +195,22 @@
     "codes": "skykeepsk"
   },
   {
-    "name": "Triforce Pieces",
-    "type": "consumable",
-    "max_quantity": 3,
-    "img": "images/triforcePiece.png",
-    "codes": "tri"
+    "name": "Triforce",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/triforce_piece.png",
+        "codes": "triforce"
+      },
+      {
+        "img": "images/triforce_piece_2.png",
+        "codes": "triforce2"
+      },
+      {
+        "img": "images/triforce_piece_3.png",
+        "codes": "triforce3"
+      }
+    ]
   },
   {
     "name": "Lanayru Caves Label",
@@ -203,7 +221,7 @@
   {
     "name": "Lanayru Caves Small Key",
     "type": "toggle",
-    "img": "images/smallkey.png",
+    "img": "images/cavekey.png",
     "codes": "cavesk,cavessk",
     "initial_active_state": false
   },
@@ -220,39 +238,124 @@
     "codes": "smallkey"
   },
   {
-    "name": "Skyview Complete",
-    "type": "toggle",
-    "img": "images/c_sv.png",
-    "codes": "skyview",
-    "disabled_img_mods": "dim,halfdim,grayscale"
+   "name": "Skyview Complete",
+   "type": "progressive",
+   "allow_disabled": false,
+   "loop": false,
+   "stages": [
+     {
+       "img": "images/c_sv.png",
+       "codes": "skyview",
+     },
+     {
+       "img": "images/c_sv_g.png",
+       "codes": "skyview2",
+     },
+     {
+       "img": "images/c_sv_c.png",
+       "codes": "skyview3"
+     }
+   ]
   },
   {
     "name": "Earth Temple Complete",
-    "type": "toggle",
-    "img": "images/c_et.png",
-    "codes": "earth",
-    "disabled_img_mods": "dim,halfdim,grayscale"
+   "type": "progressive",
+   "allow_disabled": false,
+   "loop": false,
+   "stages": [
+     {
+       "img": "images/c_et.png",
+       "codes": "earth",
+     },
+     {
+       "img": "images/c_et_g.png",
+       "codes": "earth2",
+     },
+     {
+       "img": "images/c_et_c.png",
+       "codes": "earth3"
+     }
+   ]
   },
   {
     "name": "Mining Facility Complete",
-    "type": "toggle",
-    "img": "images/c_lmf.png",
-    "codes": "mine",
-    "disabled_img_mods": "dim,halfdim,grayscale"
+   "type": "progressive",
+   "allow_disabled": false,
+   "loop": false,
+   "stages": [
+     {
+       "img": "images/c_lmf.png",
+       "codes": "mine",
+     },
+     {
+       "img": "images/c_lmf_g.png",
+       "codes": "mine2",
+     },
+     {
+       "img": "images/c_lmf_c.png",
+       "codes": "mine3"
+     }
+   ]
   },
   {
     "name": "Ancient Cistern Complete",
-    "type": "toggle",
-    "img": "images/c_ac.png",
-    "codes": "cistern",
-    "disabled_img_mods": "dim,halfdim,grayscale"
+   "type": "progressive",
+   "allow_disabled": false,
+   "loop": false,
+   "stages": [
+     {
+       "img": "images/c_ac.png",
+       "codes": "cistern",
+     },
+     {
+       "img": "images/c_ac_g.png",
+       "codes": "cistern2",
+     },
+     {
+       "img": "images/c_ac_c.png",
+       "codes": "cistern3"
+     }
+   ]
   },
   {
     "name": "Sanship Complete",
-    "type": "toggle",
-    "img": "images/c_ss.png",
-    "codes": "sandship",
-    "disabled_img_mods": "dim,halfdim,grayscale"
+   "type": "progressive",
+   "allow_disabled": false,
+   "loop": false,
+   "stages": [
+     {
+       "img": "images/c_ss.png",
+       "codes": "sandship",
+     },
+     {
+       "img": "images/c_ss_g.png",
+       "codes": "sandship2",
+     },
+     {
+       "img": "images/c_ss_c.png",
+       "codes": "sandship3"
+     }
+   ]
+  },
+  {
+    "name": "Fire Sanctuary Complete",
+   "type": "progressive",
+   "allow_disabled": false,
+   "loop": false,
+   "stages": [
+     {
+       "img": "images/c_fs.png",
+       "codes": "sanc",
+     },
+     {
+       "img": "images/c_fs_g.png",
+       "codes": "sanc2",
+     },
+     {
+       "img": "images/c_fs_c.png",
+       "codes": "sanc3"
+     }
+   ]
   },
   {
     "name": "Fire Sanctuary Complete",
@@ -269,343 +372,9 @@
     "disabled_img_mods": "dim,halfdim,grayscale"
   },
   {
-    "name": "Skyview Entrance",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/ent_unknown.png",
-        "codes": "sv"
-      },
-      {
-        "img": "images/ent_dw.png",
-        "inherit_codes": false,
-        "codes": "sv,sv_dw"
-      },
-      {
-        "img": "images/ent_ev.png",
-        "inherit_codes": false,
-        "codes": "sv,sv_ev"
-      },
-      {
-        "img": "images/ent_ld.png",
-        "inherit_codes": false,
-        "codes": "sv,sv_ld"
-      },
-      {
-        "img": "images/ent_lf.png",
-        "inherit_codes": false,
-        "codes": "sv,sv_lf"
-      },
-      {
-        "img": "images/ent_ss.png",
-        "inherit_codes": false,
-        "codes": "sv,sv_ss"
-      },
-      {
-        "img": "images/ent_vs.png",
-        "inherit_codes": false,
-        "codes": "sv,sv_vs"
-      },
-      {
-        "img": "images/ent_sl.png",
-        "inherit_codes": false,
-        "codes": "sv,sv_sl"
-      }
-    ]
-  },
-  {
-    "name": "Earth Temple Entrance",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/ent_unknown.png",
-        "codes": "et"
-      },
-      {
-        "img": "images/ent_dw.png",
-        "inherit_codes": false,
-        "codes": "et,et_dw"
-      },
-      {
-        "img": "images/ent_ev.png",
-        "inherit_codes": false,
-        "codes": "et,et_ev"
-      },
-      {
-        "img": "images/ent_ld.png",
-        "inherit_codes": false,
-        "codes": "et,et_ld"
-      },
-      {
-        "img": "images/ent_lf.png",
-        "inherit_codes": false,
-        "codes": "et,et_lf"
-      },
-      {
-        "img": "images/ent_ss.png",
-        "inherit_codes": false,
-        "codes": "et,et_ss"
-      },
-      {
-        "img": "images/ent_vs.png",
-        "inherit_codes": false,
-        "codes": "et,et_vs"
-      },
-      {
-        "img": "images/ent_sl.png",
-        "inherit_codes": false,
-        "codes": "et,et_sl"
-      }
-    ]
-  },
-  {
-    "name": "Mining Facility Entrance",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "inherit_codes": false,
-    "stages": [
-      {
-        "img": "images/ent_unknown.png",
-        "codes": "lmf"
-      },
-      {
-        "img": "images/ent_dw.png",
-        "inherit_codes": false,
-        "codes": "lmf,lmf_dw"
-      },
-      {
-        "img": "images/ent_ev.png",
-        "inherit_codes": false,
-        "codes": "lmf,lmf_ev"
-      },
-      {
-        "img": "images/ent_ld.png",
-        "inherit_codes": false,
-        "codes": "lmf,lmf_ld"
-      },
-      {
-        "img": "images/ent_lf.png",
-        "inherit_codes": false,
-        "codes": "lmf,lmf_lf"
-      },
-      {
-        "img": "images/ent_ss.png",
-        "inherit_codes": false,
-        "codes": "lmf,lmf_ss"
-      },
-      {
-        "img": "images/ent_vs.png",
-        "inherit_codes": false,
-        "codes": "lmf,lmf_vs"
-      },
-      {
-        "img": "images/ent_sl.png",
-        "inherit_codes": false,
-        "codes": "lmf,lmf_sl"
-      }
-    ]
-  },
-  {
-    "name": "Ancient Cistern Entrance",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "inherit_codes": false,
-    "stages": [
-      {
-        "img": "images/ent_unknown.png",
-        "codes": "ac"
-      },
-      {
-        "img": "images/ent_dw.png",
-        "inherit_codes": false,
-        "codes": "ac,ac_dw"
-      },
-      {
-        "img": "images/ent_ev.png",
-        "inherit_codes": false,
-        "codes": "ac,ac_ev"
-      },
-      {
-        "img": "images/ent_ld.png",
-        "inherit_codes": false,
-        "codes": "ac,ac_ld"
-      },
-      {
-        "img": "images/ent_lf.png",
-        "inherit_codes": false,
-        "codes": "ac,ac_lf"
-      },
-      {
-        "img": "images/ent_ss.png",
-        "inherit_codes": false,
-        "codes": "ac,ac_ss"
-      },
-      {
-        "img": "images/ent_vs.png",
-        "inherit_codes": false,
-        "codes": "ac,ac_vs"
-      },
-      {
-        "img": "images/ent_sl.png",
-        "inherit_codes": false,
-        "codes": "ac,ac_sl"
-      }
-    ]
-  },
-  {
-    "name": "Sandship Entrance",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "inherit_codes": false,
-    "stages": [
-      {
-        "img": "images/ent_unknown.png",
-        "codes": "ss"
-      },
-      {
-        "img": "images/ent_dw.png",
-        "inherit_codes": false,
-        "codes": "ss,ss_dw"
-      },
-      {
-        "img": "images/ent_ev.png",
-        "inherit_codes": false,
-        "codes": "ss,ss_ev"
-      },
-      {
-        "img": "images/ent_ld.png",
-        "inherit_codes": false,
-        "codes": "ss,ss_ld"
-      },
-      {
-        "img": "images/ent_lf.png",
-        "inherit_codes": false,
-        "codes": "ss,ss_lf"
-      },
-      {
-        "img": "images/ent_ss.png",
-        "inherit_codes": false,
-        "codes": "ss,ss_ss"
-      },
-      {
-        "img": "images/ent_vs.png",
-        "inherit_codes": false,
-        "codes": "ss,ss_vs"
-      },
-      {
-        "img": "images/ent_sl.png",
-        "inherit_codes": false,
-        "codes": "ss,ss_sl"
-      }
-    ]
-  },
-  {
-    "name": "Fire Sanc Entrance",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "inherit_codes": false,
-    "stages": [
-      {
-        "img": "images/ent_unknown.png",
-        "codes": "fs"
-      },
-      {
-        "img": "images/ent_dw.png",
-        "inherit_codes": false,
-        "codes": "fs,fs_dw"
-      },
-      {
-        "img": "images/ent_ev.png",
-        "inherit_codes": false,
-        "codes": "fs,fs_ev"
-      },
-      {
-        "img": "images/ent_ld.png",
-        "inherit_codes": false,
-        "codes": "fs,fs_ld"
-      },
-      {
-        "img": "images/ent_lf.png",
-        "inherit_codes": false,
-        "codes": "fs,fs_lf"
-      },
-      {
-        "img": "images/ent_ss.png",
-        "inherit_codes": false,
-        "codes": "fs,fs_ss"
-      },
-      {
-        "img": "images/ent_vs.png",
-        "inherit_codes": false,
-        "codes": "fs,fs_vs"
-      },
-      {
-        "img": "images/ent_sl.png",
-        "inherit_codes": false,
-        "codes": "fs,fs_sl"
-      }
-    ]
-  },
-  {
-    "name": "Skykeep Entrance",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "inherit_codes": false,
-    "stages": [
-      {
-        "img": "images/ent_unknown.png",
-        "codes": "sk"
-      },
-      {
-        "img": "images/ent_dw.png",
-        "inherit_codes": false,
-        "codes": "sk,sk_dw"
-      },
-      {
-        "img": "images/ent_ev.png",
-        "inherit_codes": false,
-        "codes": "sk,sk_ev"
-      },
-      {
-        "img": "images/ent_ld.png",
-        "inherit_codes": false,
-        "codes": "sk,sk_ld"
-      },
-      {
-        "img": "images/ent_lf.png",
-        "inherit_codes": false,
-        "codes": "sk,sk_lf"
-      },
-      {
-        "img": "images/ent_ss.png",
-        "inherit_codes": false,
-        "codes": "sk,sk_ss"
-      },
-      {
-        "img": "images/ent_vs.png",
-        "inherit_codes": false,
-        "codes": "sk,sk_vs"
-      },
-      {
-        "img": "images/ent_sl.png",
-        "inherit_codes": false,
-        "codes": "sk,sk_sl"
-      }
-    ]
-  },
-  {
-    "name": "Demise",
+    "name": "Tumble Weed",
     "type": "toggle",
-    "img": "images/demise.png",
-    "codes": "demise"
-  }
+    "img": "images/tumble.png",
+    "codes": "tumble"
+  },
 ]

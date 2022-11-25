@@ -1,7 +1,4 @@
 # j_im Trackers
-
-This repository contains the packs I maintain for [EmoTracker](https://emotracker.net/).
-
 ### Packs
 
-- [Skyward Sword Randomizer Map and Items Tracker](ssrando_jim/README.md)
+This tracker was originally created by J_im then it was modified by Gymnast86 then I came along and made some changes updating it to the current rando and making some changes. I removed what I didn't need like the map tracker. If I want that I would use the browser version.

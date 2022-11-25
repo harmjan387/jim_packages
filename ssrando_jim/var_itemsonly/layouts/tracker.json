@@ -1,9 +1,9 @@
 {
   "tracker_default": {
     "type": "container",
-    "background": "#212121",
-    "width": 300,
-    "height": 270,
+    "background": "#0c0517",
+    "width": 450,
+    "height": 800,
     "content": {
       "type": "layout",
       "key": "item_grid"

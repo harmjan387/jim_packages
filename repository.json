@@ -13,21 +13,9 @@
         "documentation_url": "https://github.com/j-imbo/jim_packages/blob/master/ssrando_jim/README.md",
         "variants": [
           {
-            "name": "Map Tracker",
-            "flags": [ "map", "pins" ]
-          },
-          {
-            "name": "Map Tracker (Dungeon Shuffle)",
-            "flags": [ "map", "pins" ]
-          },
-          {
             "name": "Item Tracker",
             "flags": [ ]
           },
-          {
-            "name": "Item Tracker (Dungeon Shuffle)",
-            "flags": [ ]
-          }
         ]
       }
     ]
