@@ -1,0 +1,189 @@
+{
+  "sideItems_grid_w": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "60,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "h_alignment": "right",
+                "item_margin": "0,2",
+                "item_size": 60,
+                "rows": [
+                  [
+                    "wds",
+                    "fse",
+                    "cavesk",
+                    "stone",
+                    "chart",
+                  ],
+                ]
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "canvas",
+                "orientation": "horizontal",
+                "width": 450,
+                "height": 120,
+                "content": [
+                  {
+                    "type": "item",
+                    "item": "letter",
+                    "canvas_depth": 9,
+                    "canvas_left": 30,
+                    "canvas_top": 0,
+                    "width": 60,
+                    "height": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "hcb",
+                    "canvas_depth": 9,
+                    "canvas_left": 90,
+                    "canvas_top": 0,
+                    "width": 60,
+                    "height": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "rattle",
+                    "canvas_depth": 9,
+                    "canvas_left": 150,
+                    "canvas_top": 0,
+                    "width": 60,
+                    "height": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "spiral",
+                    "canvas_depth": 9,
+                    "canvas_left": 210,
+                    "canvas_top": 0,
+                    "width": 60,
+                    "height": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "fruit",
+                    "canvas_depth": 9,
+                    "canvas_left": 270,
+                    "canvas_top": 0,
+                    "width": 60,
+                    "height": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "grat",
+                    "canvas_depth": 9,
+                    "canvas_left": 330,
+                    "canvas_top": 0,
+                    "width": 60,
+                    "height": 60
+                  },
+
+
+                  {
+                    "type": "item",
+                    "item": "wallet",
+                    "canvas_depth": 1,
+                    "canvas_left": 0,
+                    "canvas_top": 60,
+                    "width": 60,
+                    "height": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "wallet_ex",
+                    "canvas_depth": 0,
+                    "canvas_left": 60,
+                    "canvas_top": 60,
+                    "width": 60,
+                    "height": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "cursed",
+                    "canvas_depth": 1,
+                    "canvas_left": 180,
+                    "canvas_top": 60,
+                    "width": 256,
+                    "height": 60
+                  },
+                  {
+                    "type": "item",
+                    "item": "pouch",
+                    "canvas_depth": 0,
+                    "canvas_left": 240,
+                    "canvas_top": 0,
+                    "width": 60,
+                    "height": 120
+                  },
+                  {
+                    "type": "item",
+                    "item": "bottle",
+                    "canvas_depth": 0,
+                    "canvas_left": 300,
+                    "canvas_top": 0,
+                    "width": 60,
+                    "height": 120
+                  },
+                  {
+                    "type": "item",
+                    "item": "shield2",
+                    "canvas_depth": 0,
+                    "canvas_left": 360,
+                    "canvas_top": 0,
+                    "width": 60,
+                    "height": 120
+                  },
+                  {
+                    "type": "item",
+                    "item": "pouch",
+                    "canvas_depth": 2,
+                    "canvas_left": 240,
+                    "canvas_top": 60,
+                    "width": 60,
+                    "height": 120
+                  },
+                  {
+                    "type": "item",
+                    "item": "bottle",
+                    "canvas_depth": 2,
+                    "canvas_left": 300,
+                    "canvas_top": 60,
+                    "width": 60,
+                    "height": 120
+                  },
+                  {
+                    "type": "item",
+                    "item": "shield2",
+                    "canvas_depth": 2,
+                    "canvas_left": 360,
+                    "canvas_top": 60,
+                    "width": 60,
+                    "height": 120
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

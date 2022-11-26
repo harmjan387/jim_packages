@@ -1,0 +1,12 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#0c0517",
+    "width": 350,
+    "height": 300,
+    "content": {
+      "type": "layout",
+      "key": "item_grid_s"
+    }
+  }
+}

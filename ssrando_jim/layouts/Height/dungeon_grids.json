@@ -1,0 +1,44 @@
+{
+  "dungeon_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "h_alignment": "center",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "1,2",
+        "item_size": 60,
+        "rows": [
+          [
+            "skyview",
+            "earth",
+            "mine",
+            "cistern",
+            "sandship",
+            "sanc",
+            "triforce"
+          ],
+          [
+            "skyviewsk",
+            "kp",
+            "minesk",
+            "cisternsk",
+            "sandshipsk",
+            "sancsk",
+            "skykeepsk"
+          ],
+          [
+            "skyviewbk",
+            "earthbk",
+            "minebk",
+            "cisternbk",
+            "sandshipbk",
+            "sancbk",
+            "tumble"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "item_grid_s": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "layout",
+        "key": "placeSongs_s",
+        "margin": "0,0"
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "layout",
+            "key": "mainItems_grid_s",
+            "margin": "0,0"
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "content": [
+              {
+                "type": "layout",
+                "key": "sideItems_grid_s",
+                "margin": "3,0"
+              },
+              {
+                "type": "layout",
+                "key": "dungeon_grid_s",
+                "margin": "0,10,0,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

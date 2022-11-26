@@ -1,0 +1,110 @@
+{
+  "placeSongs_s": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "canvas",
+            "height": 64,
+            "width": 105,
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "item",
+                "item": "amber",
+                "canvas_depth": 0,
+                "canvas_left": 0,
+                "canvas_top": 0,
+                "height": 64,
+                "width": 46
+              },
+              {
+                "type": "item",
+                "item": "ruby",
+                "canvas_depth": 0,
+                "canvas_left": 27,
+                "canvas_top": 0,
+                "height": 31,
+                "width": 60
+              },
+              {
+                "type": "item",
+                "item": "emerald",
+                "canvas_depth": 0,
+                "canvas_left": 42,
+                "canvas_top": 25,
+                "height": 50,
+                "width": 45
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 500,
+            "height": 64,
+            "margin": "0, 0",
+            "content": [
+              {
+                "type": "item",
+                "item": "harp",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 32,
+                "canvas_top": 16,
+              },
+              {
+                "type": "item",
+                "item": "soh",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 32,
+                "canvas_left": 40,
+                "canvas_top": 16,
+              },
+              {
+                "type": "item",
+                "item": "bog",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 32,
+                "canvas_left": 80,
+                "canvas_top": 16,
+              },
+              {
+                "type": "item",
+                "item": "fc",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 32,
+                "canvas_left": 120,
+                "canvas_top": 16,
+              },
+              {
+                "type": "item",
+                "item": "nw",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 32,
+                "canvas_left": 160,
+                "canvas_top": 16,
+              },
+              {
+                "type": "item",
+                "item": "dp",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 32,
+                "canvas_left": 200,
+                "canvas_top": 16,
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
