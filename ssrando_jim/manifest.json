@@ -1,12 +1,18 @@
-﻿{
-  "name": "SS Randomizer - Map and Items Tracker",
+{
+  "name": "SSR item tracker",
   "game_name": "The Legend of Zelda: Skyward Sword",
-  "package_version": "1.0.5.0",
+  "package_version": "2.1.2",
   "package_uid": "ssrando_jim",
   "author": "j_im",
   "variants": {
     "var_itemsonly": {
-      "display_name": "Items Only"
+      "display_name": "Large(Height)"
+    },
+    "var_width": {
+      "display_name": "Large(Width)"
+    },
+    "var_small": {
+      "display_name": "Small"
     },
   }
 }
