@@ -1,7 +1,7 @@
 {
   "tracker_default": {
     "type": "container",
-    "background": "#0c0517",
+    "background": "#212121",
     "width": 450,
     "height": 800,
     "content": {

@@ -19,19 +19,17 @@ end
 Tracker:AddLayouts("layouts/height/dungeon_grids.json")
 Tracker:AddLayouts("layouts/height/mainItems_grids.json")
 Tracker:AddLayouts("layouts/height/sideItems_grids.json")
-Tracker:AddLayouts("layouts/height/placeSongs_grids.json")
+Tracker:AddLayouts("layouts/height/song_grids.json")
+Tracker:AddLayouts("layouts/height/tablets_grids.json")
 Tracker:AddLayouts("layouts/height/item_grids.json")
 
 Tracker:AddLayouts("layouts/small/dungeon_grids_s.json")
 Tracker:AddLayouts("layouts/small/mainItems_grids_s.json")
 Tracker:AddLayouts("layouts/small/sideItems_grids_s.json")
-Tracker:AddLayouts("layouts/small/placeSongs_grids_s.json")
+Tracker:AddLayouts("layouts/small/song_grids_s.json")
+Tracker:AddLayouts("layouts/small/tablets_grids_s.json")
 Tracker:AddLayouts("layouts/small/item_grids_s.json")
 
-Tracker:AddLayouts("layouts/width/dungeon_grids_w.json")
-Tracker:AddLayouts("layouts/width/mainItems_grids_w.json")
-Tracker:AddLayouts("layouts/width/sideItems_grids_w.json")
-Tracker:AddLayouts("layouts/width/placeSongs_grids_w.json")
 Tracker:AddLayouts("layouts/width/item_grids_w.json")
 
 Tracker:AddLayouts("layouts/layouts.json")

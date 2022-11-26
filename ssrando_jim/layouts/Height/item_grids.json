@@ -4,9 +4,20 @@
     "orientation": "vertical",
     "content": [
       {
-        "type": "layout",
-        "key": "placeSongs",
-        "margin": "15,0"
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+          "type": "layout",
+          "key": "tablet",
+          "margin": "15,10"
+        },
+          {
+          "type": "layout",
+          "key": "song",
+          "margin": "20,10"
+          }
+        ]
       },
       {
         "type": "layout",

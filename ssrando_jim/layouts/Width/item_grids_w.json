@@ -8,13 +8,24 @@
         "orientation": "horizontal",
         "content": [
           {
-            "type": "layout",
-            "key": "placeSongs_w",
-            "margin": "0,0"
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+              "type": "layout",
+              "key": "tablet",
+              "margin": "15,10"
+              },
+              {
+              "type": "layout",
+              "key": "song",
+              "margin": "20,10"
+              }
+            ]
           },
           {
             "type": "layout",
-            "key": "mainItems_grid_w",
+            "key": "mainItems_grid",
             "margin": "0,0"
           },
         ]
@@ -25,12 +36,12 @@
         "content": [
           {
             "type": "layout",
-            "key": "sideItems_grid_w",
+            "key": "sideItems_grid",
             "margin": "0,0"
           },
           {
             "type": "layout",
-            "key": "dungeon_grid_w",
+            "key": "dungeon_grid",
             "margin": "0,0,0,0"
           }
         ]

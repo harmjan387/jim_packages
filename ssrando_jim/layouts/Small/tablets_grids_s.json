@@ -1,0 +1,49 @@
+{
+  "tablet_s": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "canvas",
+            "height": 65,
+            "width": 85,
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "item",
+                "item": "amber",
+                "canvas_depth": 0,
+                "canvas_left": 0,
+                "canvas_top": 0,
+                "height": 64,
+                "width": 46
+              },
+              {
+                "type": "item",
+                "item": "ruby",
+                "canvas_depth": 0,
+                "canvas_left": 27,
+                "canvas_top": 0,
+                "height": 31,
+                "width": 60
+              },
+              {
+                "type": "item",
+                "item": "emerald",
+                "canvas_depth": 0,
+                "canvas_left": 42,
+                "canvas_top": 25,
+                "height": 50,
+                "width": 45
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
