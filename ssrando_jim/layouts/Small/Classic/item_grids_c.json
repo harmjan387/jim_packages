@@ -26,7 +26,7 @@
           {
             "type": "layout",
             "key": "sideItems_grid_c",
-            "margin": "3,0"
+            "margin": "10,0"
           },
           {
             "type": "layout",
