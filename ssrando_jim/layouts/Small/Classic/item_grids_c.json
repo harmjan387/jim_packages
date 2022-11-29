@@ -1,0 +1,45 @@
+{
+  "item_grid_c": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "layout",
+            "key": "mainItems_grid_c",
+            "margin": "0,0"
+          },
+          {
+            "type": "layout",
+            "key": "tablet_s",
+            "margin": "20,6"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "layout",
+            "key": "sideItems_grid_c",
+            "margin": "3,0"
+          },
+          {
+            "type": "layout",
+            "key": "song_c",
+            "margin": "10,0"
+          },
+        ]
+      },
+      {
+        "type": "layout",
+        "key": "dungeon_grid_s",
+        "margin": "0,4,0,0"
+      }
+    ]
+  }
+}

@@ -1,7 +1,10 @@
 # j_im Trackers
 ### Packs
 
-Current - version 2.1
+Current - version 2.2   
+     Added new a fourth small layout called, "Classic." This layout is incredibly close to the layout that I forked this project from. The layouts are now: Small(Standard), Small(Classic), Large(Width), Large(Height)
+
+Previous - version 2.1
      It introduces 3 different sized trackers that you can select in the packages section of the tracker. It has Small, Large(Width), Large(Height). Pick what way you want your tracker to be displayed.
 
 Previous - version 2.0

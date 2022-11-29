@@ -1,14 +1,14 @@
 {
-  "dungeon_grid_s": {
+  "dungeon_grid": {
     "type": "array",
     "orientation": "vertical",
+    "h_alignment": "center",
     "content": [
       {
         "type": "itemgrid",
-        "h_alignment": "center",
+        "h_alignment": "left",
         "item_margin": "1,2",
-        "margin": "7,0",
-        "item_size": 30,
+        "item_size": 60,
         "rows": [
           [
             "skyview",

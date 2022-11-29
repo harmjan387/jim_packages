@@ -1,0 +1,68 @@
+{
+  "song_c": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "canvas",
+        "width": 98,
+        "height": 80,
+        "margin": "0",
+        "content": [
+          {
+            "type": "item",
+            "item": "harp",
+            "canvas_depth": 1,
+            "width": 32,
+            "height": 32,
+            "canvas_left": 26,
+            "canvas_top": 26
+          },
+          {
+            "type": "item",
+            "item": "soh",
+            "canvas_depth": 1,
+            "width": 28,
+            "height": 28,
+            "canvas_left": 28
+          },
+          {
+            "type": "item",
+            "item": "bog",
+            "canvas_depth": 1,
+            "width": 28,
+            "height": 28,
+            "canvas_top": 24,
+          },
+          {
+            "type": "item",
+            "item": "fc",
+            "canvas_depth": 1,
+            "width": 28,
+            "height": 28,
+            "canvas_top": 24,
+            "canvas_left": 58
+          },
+          {
+            "type": "item",
+            "item": "nw",
+            "canvas_depth": 1,
+            "width": 28,
+            "height": 28,
+            "canvas_left": 16,
+            "canvas_top": 54
+          },
+          {
+            "type": "item",
+            "item": "dp",
+            "canvas_depth": 1,
+            "width": 28,
+            "height": 28,
+            "canvas_left": 48,
+            "canvas_top": 54
+          }
+        ]
+      }
+    ]
+  }
+}

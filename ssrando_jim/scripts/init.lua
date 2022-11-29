@@ -16,21 +16,33 @@ if has_map then
   Tracker:AddLocations("locations/dungeons.json")
 end
 
-Tracker:AddLayouts("layouts/height/dungeon_grids.json")
-Tracker:AddLayouts("layouts/height/mainItems_grids.json")
-Tracker:AddLayouts("layouts/height/sideItems_grids.json")
-Tracker:AddLayouts("layouts/height/song_grids.json")
-Tracker:AddLayouts("layouts/height/tablets_grids.json")
-Tracker:AddLayouts("layouts/height/item_grids.json")
+Tracker:AddLayouts("layouts/large/dungeon_grids.json")
+Tracker:AddLayouts("layouts/large/mainItems_grids.json")
+Tracker:AddLayouts("layouts/large/sideItems_grids.json")
+Tracker:AddLayouts("layouts/large/song_grids.json")
+Tracker:AddLayouts("layouts/large/tablets_grids.json")
+
+Tracker:AddLayouts("layouts/large/width/item_grids_w.json")
+
+Tracker:AddLayouts("layouts/large/height/item_grids.json")
+
+
 
 Tracker:AddLayouts("layouts/small/dungeon_grids_s.json")
-Tracker:AddLayouts("layouts/small/mainItems_grids_s.json")
-Tracker:AddLayouts("layouts/small/sideItems_grids_s.json")
-Tracker:AddLayouts("layouts/small/song_grids_s.json")
 Tracker:AddLayouts("layouts/small/tablets_grids_s.json")
-Tracker:AddLayouts("layouts/small/item_grids_s.json")
 
-Tracker:AddLayouts("layouts/width/item_grids_w.json")
+
+Tracker:AddLayouts("layouts/small/standard/song_grids_s.json")
+Tracker:AddLayouts("layouts/small/standard/sideItems_grids_s.json")
+Tracker:AddLayouts("layouts/small/standard/mainItems_grids_s.json")
+Tracker:AddLayouts("layouts/small/standard/item_grids_s.json")
+
+Tracker:AddLayouts("layouts/small/classic/song_grids_c.json")
+Tracker:AddLayouts("layouts/small/classic/sideItems_grids_c.json")
+Tracker:AddLayouts("layouts/small/classic/mainItems_grids_c.json")
+Tracker:AddLayouts("layouts/small/classic/item_grids_c.json")
+
+
 
 Tracker:AddLayouts("layouts/layouts.json")
 Tracker:AddLayouts("layouts/capture.json")

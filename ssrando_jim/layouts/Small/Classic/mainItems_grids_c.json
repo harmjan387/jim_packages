@@ -1,0 +1,37 @@
+{
+  "mainItems_grid_c": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_margin": "1,2",
+            "item_size": 32,
+            "rows": [
+              [
+                "sword0",
+                "sling",
+                "beetle",
+                "bombs",
+                "bellows",
+              ],
+              [
+                "mitts",
+                "whip",
+                "cs",
+                "bow",
+                "bugnet"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
