@@ -372,9 +372,23 @@
     "disabled_img_mods": "dim,halfdim,grayscale"
   },
   {
-    "name": "Tumble Weed",
-    "type": "toggle",
-    "img": "images/tumble.png",
-    "codes": "tumble"
+  "name": "mode",
+   "type": "progressive",
+   "allow_disabled": false,
+   "loop": false,
+   "stages": [
+     {
+       "img": "images/no_mode.png",
+       "codes": "no_mode",
+     },
+     {
+       "img": "images/know_mode.png",
+       "codes": "know_mode",
+     },
+     {
+       "img": "images/go_mode.png",
+       "codes": "go_mode"
+     }
+   ]
   },
 ]

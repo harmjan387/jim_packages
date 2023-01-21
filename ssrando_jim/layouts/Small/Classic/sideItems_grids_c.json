@@ -88,7 +88,7 @@
             "item": "pouch",
             "canvas_depth": 4,
             "canvas_left": 28,
-            "width": 96,
+            "width": 56,
             "height": 28,
           },
           {
@@ -96,7 +96,7 @@
             "item": "bottle",
             "canvas_depth": 3,
             "canvas_left": 28,
-            "width": 128,
+            "width": 84,
             "height": 28,
           },
           {
@@ -104,7 +104,7 @@
             "item": "shield2",
             "canvas_depth": 2,
             "canvas_left": 28,
-            "width": 156,
+            "width": 112,
             "height": 28,
           },
         ]

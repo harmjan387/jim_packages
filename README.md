@@ -1,7 +1,10 @@
 # j_im Trackers
 ### Packs
 
-Current - version 2.2   
+Current - version 2.3   
+     Fixed an issue with "Classic" not working properly with Cursed Medal. Removed the Tumbleweed check with a "No Mode, Know Mode, and Go Mode" check instead.
+
+Previous - version 2.2   
      Added new a fourth small layout called, "Classic." This layout is incredibly close to the layout that I forked this project from. The layouts are now: Small(Standard), Small(Classic), Large(Width), Large(Height)
 
 Previous - version 2.1
