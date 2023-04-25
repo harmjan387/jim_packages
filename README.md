@@ -1,7 +1,10 @@
 # j_im Trackers
 ### Packs
 
-Current - version 2.3   
+Recent - version 2.4   
+     Added Tadtones to tracker for upcoming Tadtonesanity
+
+Previous - version 2.3   
      Fixed an issue with "Classic" not working properly with Cursed Medal. Removed the Tumbleweed check with a "No Mode, Know Mode, and Go Mode" check instead.
 
 Previous - version 2.2   

@@ -173,6 +173,14 @@
     "increment": 5
   },
   {
+    "name": "Tadtone",
+    "type": "consumable",
+    "max_quantity": 17,
+    "img": "images/Tadtone.png",
+    "codes": "tad,tone,tadtone",
+    "increment": 1
+  },
+  {
     "name": "Spiral Charge",
     "type": "progressive",
     "stages": [

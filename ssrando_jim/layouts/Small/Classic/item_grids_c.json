@@ -26,12 +26,12 @@
           {
             "type": "layout",
             "key": "sideItems_grid_c",
-            "margin": "10,0"
+            "margin": "2,0"
           },
           {
             "type": "layout",
             "key": "song_c",
-            "margin": "10,0"
+            "margin": "4,0"
           },
         ]
       },
