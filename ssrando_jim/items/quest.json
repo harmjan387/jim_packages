@@ -12,6 +12,12 @@
     "codes": "earrings,fireshield,fse"
   },
   {
+    "name": "Scrapper",
+    "type": "toggle",
+    "img": "images/scrap.png",
+    "codes": "scrap,scrapper"
+  },
+  {
     "name": "Water Dragon's Scale",
     "type": "toggle",
     "img": "images/scale.png",
